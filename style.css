@@ -6,7 +6,7 @@
 
 body {
     align-items: center;
-    background-image: url('/countdown-timer/antonio-gabola-NRF1IQrwwPs-unsplash.jpg');
+    background-image: url('./images/antonio-gabola-NRF1IQrwwPs-unsplash.jpg');
     background-position: center center;
     background-size: cover;
     color: #FFF;
@@ -15,12 +15,14 @@ body {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
     font-size: 4rem;
     font-weight: normal;
     margin-top: 3rem;
+    text-shadow: 2px 0 #000;
 }
 
 .big-text {
@@ -31,13 +33,16 @@ h1 {
 
 .countdown-container {
     display: flex;
-    margin-top: 18rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 17rem;
 }
 
-.countdown-element {
-    text-align: center;
+.countdown-element p {
+    text-shadow: 2px 0 #000;
 }
 
 .countdown-element span {
     font-size: 1.3rem;
+    text-shadow: 2px 0 #000;
 }
