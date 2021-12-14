@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-image: url('/countdown-timer/antonio-gabola-NRF1IQrwwPs-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 3rem;
+}
+
+.big-text {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-container {
+    display: flex;
+    margin-top: 18rem;
+}
+
+.countdown-element {
+    text-align: center;
+}
+
+.countdown-element span {
+    font-size: 1.3rem;
+}
